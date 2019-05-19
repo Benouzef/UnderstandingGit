@@ -38,11 +38,11 @@ nothing to commit, working tree clean
 
 ### Type git reset --hard a0705a5a385b58f79360221d6fe2953928deb23f
 ```
-PS C:\Users\bfillon\Documents\Code\UnderstandingGit> git reset --hard a0705a5a385b58f79360221d6fe2953928deb23f
+PS <Your working directory>\Code\UnderstandingGit> git reset --hard a0705a5a385b58f79360221d6fe2953928deb23f
 HEAD is now at a0705a5 Initial Commit
-PS C:\Users\bfillon\Documents\Code\UnderstandingGit> git reset --hard HEAD
+PS <Your working directory>\Code\UnderstandingGit> git reset --hard HEAD
 HEAD is now at a0705a5 Initial Commit
-PS C:\Users\bfillon\Documents\Code\UnderstandingGit> git status
+PS <Your working directory>\Code\UnderstandingGit> git status
 On branch master
 Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
   (use "git pull" to update your local branch)
@@ -56,7 +56,7 @@ When you type "git status", the current branch is behind by a few commits.
 You just have to type git pull to get back to present
 
 ```
-PS C:\Users\bfillon\Documents\Code\UnderstandingGit> git pull
+PS <Your working directory>\Code\UnderstandingGit> git pull
 Updating a0705a5..7c99fb9
 Fast-forward
  GoingBackAndForthInTime/SecondFile  | 1 +
